@@ -1,0 +1,14 @@
+version: 0.2
+phases:
+  pre_build:
+    commands:
+      - chmod +x ./scripts/install-dependencies.sh
+      - ./scripts/install-dependencies.sh
+      - echo "Installing Packer"
+  build:
+    commands:     
+      - chmod +x ./scripts/$SCRIPT
+      - ./scripts/$SCRIPT
+  post_build:
+    commands:
+      - echo "Complete"

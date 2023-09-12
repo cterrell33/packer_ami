@@ -1,0 +1,7 @@
+{
+    "source_ami":"ami-026ebd4cfe2c043b2",
+    "vpc_id":"vpc-05fd670994985bae4",
+    "subnet_id":"subnet-0cf8904fc0101c3ba",
+    "instance_profile":"arn:aws:iam::949588328828:role/codepipeline-46e9e59e2c360122",
+    "security_group":"sg-075571ac85eb6c1ce"
+}
